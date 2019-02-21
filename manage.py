@@ -4,6 +4,7 @@ from app import create_app,db
 from flask_migrate import Migrate,MigrateCommand
 from config import config_options
 from app.models import User,Places,Favorites,Review
+from app.models import User,Favorites,Review,Places
 
 #Instances of app
 #app = create_app('development')
